@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# A Bunch of Useful React Custom Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains a collection of highly useful and convenient React custom hooks, designed to simplify and enhance project development
+
+### Below is the list:
+
+`usePrevious:` Tracks the previous value of a state.
+
+`useFetch:` Manages data fetching within components.
+
+`useToggle:` Handles boolean state toggling in components.
+
+`useForm:` Simplifies form state management.
+
+`useHover:` Detects whether an element is being hovered over.
+
+`useUpdateEffect:` Executes an effect only after the first render.
+
+`useDebounce:` Delays executing a function until after a specified time period.
+
+`useWindowSize:` Tracks the dimensions of the browser window.
+
+`useOnClickOutside:` Detects clicks that occur outside a specified element.
+
+`useScript:` Dynamically loads and manages external scripts.
+
+`useStorage:` Facilitates interaction with browser storage mechanisms such as localStorage and sessionStorage.
 
 ## Available Scripts
 
@@ -68,3 +92,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
