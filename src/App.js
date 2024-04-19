@@ -8,6 +8,8 @@ import UpdateEffectComponent from "./components/UpdateEffectComponent.jsx";
 import DebounceComponent from "./components/DebounceComponent.jsx";
 import WindowSizeComponent from "./components/WindowSizeComponent.jsx";
 import ClickOutSideComponent from "./components/ClickOutSideComponent.jsx";
+import ScriptComponent from "./components/ScriptComponent.jsx";
+import StorageComponent from "./components/StorageComponent.jsx";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <DebounceComponent />
       <WindowSizeComponent />
       <ClickOutSideComponent />
+      <ScriptComponent />
+      <StorageComponent />
     </div>
   );
 }

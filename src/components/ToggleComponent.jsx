@@ -1,4 +1,5 @@
 import useToggle from "../hooks/useToggle";
+import Alert from "./Alert";
 
 export default function ToggleComponent() {
     const [value, toggleValue] = useToggle(false);
@@ -8,8 +9,7 @@ export default function ToggleComponent() {
             <h1>Component to showcase <span>useToggle</span> hook</h1>
             <div>{value.toString()}</div>
             <button onClick={toggleValue}>Toggle</button>
-            <button onClick={() => toggleValue(true)}>Set Value to True</button>
-            <button onClick={() => toggleValue(false)}>Set Value to False</button>
+            {value && <Alert message={`Hello! This is Modal using React portals`} onClose={() => toggleValue(false)} />}
         </div>
     );
 };
