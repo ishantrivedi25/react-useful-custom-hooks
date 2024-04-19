@@ -41,6 +41,10 @@ h1 {
   text-decoration: underline;
 }
 
+h1 span {
+  color: #4141ff;
+}
+
 .wrapper {
   padding-bottom: 16px;
   border-bottom: 2px solid #c1c1c1;
@@ -48,5 +52,4 @@ h1 {
 
 .wrapper:last-child {
   border-bottom: 0;
-  padding-bottom: 0;
 }
