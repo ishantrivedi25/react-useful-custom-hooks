@@ -5,7 +5,7 @@ export default function ToggleComponent() {
 
     return (
         <div className="wrapper">
-            <h1>Component to showcase useFetch hook</h1>
+            <h1>Component to showcase <span>useToggle</span> hook</h1>
             <div>{value.toString()}</div>
             <button onClick={toggleValue}>Toggle</button>
             <button onClick={() => toggleValue(true)}>Set Value to True</button>

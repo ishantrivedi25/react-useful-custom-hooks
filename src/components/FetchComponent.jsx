@@ -10,7 +10,7 @@ const FetchComponent = () => {
 
     return (
         <div className="wrapper">
-            <h1>Component to showcase useFetch hook</h1>
+            <h1>Component to showcase <span>useFetch</span> hook</h1>
             <div>CurrentID: {id}</div>
             <button onClick={() => setId(currentId => currentId + 1)}>
                 Increment ID

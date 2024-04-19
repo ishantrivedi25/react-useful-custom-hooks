@@ -7,7 +7,7 @@ function PreviousComponent() {
 
     return (
         <div className="wrapper">
-            <h1>Component to showcase usePrevious hook</h1>
+            <h1>Component to showcase <span>usePrevious</span> hook</h1>
             <h3>
                 Now: {count}, before: {prevCount}
             </h3>

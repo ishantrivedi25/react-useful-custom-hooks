@@ -5,6 +5,9 @@ import ToggleComponent from "./components/ToggleComponent.jsx";
 import FormComponent from "./components/FormComponent.jsx";
 import HoverComponent from "./components/HoverComponent.jsx";
 import UpdateEffectComponent from "./components/UpdateEffectComponent.jsx";
+import DebounceComponent from "./components/DebounceComponent.jsx";
+import WindowSizeComponent from "./components/WindowSizeComponent.jsx";
+import ClickOutSideComponent from "./components/ClickOutSideComponent.jsx";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <FormComponent />
       <HoverComponent />
       <UpdateEffectComponent />
+      <DebounceComponent />
+      <WindowSizeComponent />
+      <ClickOutSideComponent />
     </div>
   );
 }
